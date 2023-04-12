@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page-header {
+    display: grid;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #FFC5E8;
+    grid-template-columns: 7fr 1fr;
+}
+.page-main{
+}
+
+.days-list{
+    display: grid;
+    width: 65%;
+    margin: 40px auto 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    list-style: none;
+    Z
+}
+.day{
+    border: 1px solid rgb(300, 300, 300);
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #F799CB;
+}
+
+
+body {
+   overflow: hidden;
+}
+
+.page-header{
+    padding: 30px 20px 70px;
+}
+.title{
+    width: 100%;
+}
+.quote {
+    font-family: DynaPuff, Bold;
+    width: 160px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("Bus.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+}
+.day h2{
+    color: #F799CB;
+}
+.day h2 img{
+    width: 25px;
+    margin: 0px 5px;
+} 
+.page-footer{
+    position: absolute;
+    text-align: center;
+    padding: 10px 20px 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #C23E84;
+    color: white;
+}
+
+.accent {
+    color: #F54FCF;
+}
